@@ -137,7 +137,7 @@ Ou, se estiver executando o executável de lançamento:
 target/release/rustdesk
 ```
 
-Certifique-se de executar esses comandos a partir da raiz do repositório do RustDesk, do contrário o aplicativo pode não encontrar os recursos necessários. Note também que outros subcomandos do cargo, como `install` ou `run`, não são suportados atualmente por este método, pois instalariam ou executariam o programa dentro do contêiner em vez de no sistema hospedeiro.
+Certifique-se de executar esses comandos a partir da raiz do repositório, do contrário o aplicativo pode não encontrar os recursos necessários. Note também que outros subcomandos do cargo, como `install` ou `run`, não são suportados atualmente por este método, pois instalariam ou executariam o programa dentro do contêiner em vez de no sistema hospedeiro.
 
 ## Estrutura de Arquivos
 
