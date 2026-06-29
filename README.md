@@ -100,8 +100,8 @@ cd
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
-git clone --recurse-submodules https://github.com/rustdesk/rustdesk
-cd rustdesk
+
+cd pasta raiz
 mkdir -p target/debug
 wget https://raw.githubusercontent.com/c-smile/sciter-sdk/master/bin.lnx/x64/libsciter-gtk.so
 mv libsciter-gtk.so target/debug
@@ -113,8 +113,8 @@ VCPKG_ROOT=$HOME/vcpkg cargo run
 Comece clonando o repositório e construindo o contêiner Docker:
 
 ```sh
-git clone https://github.com/rustdesk/rustdesk
-cd rustdesk
+
+cd pasta raiz
 git submodule update --init --recursive
 docker build -t "rustdesk-builder" .
 ```
