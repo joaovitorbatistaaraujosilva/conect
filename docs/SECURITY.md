@@ -1,9 +1,9 @@
-# Security Policy
+# Política de Segurança
 
-## Reporting a Vulnerability
+## Relatando uma Vulnerabilidade
 
-We value security for the project very highly. We encourage all users to report any vulnerabilities they discover to us.
-If you find a security vulnerability in the RustDesk project, please report it responsibly by sending an email to info@rustdesk.com.
+Levamos a segurança do projeto muito a sério. Incentivamos todos os usuários a nos relatarem quaisquer vulnerabilidades que descobrirem.
+Se você encontrar uma vulnerabilidade de segurança no projeto , por favor, relate-a de forma responsável enviando um e-mail.
 
-At this juncture, we don't have a bug bounty program. We are a small team trying to solve a big problem. We urge you to report any vulnerabilities responsibly
-so that we can continue building a secure application for the entire community.
+No momento, não possuímos um programa de recompensa por bugs (*bug bounty*). Somos uma equipe pequena tentando resolver um grande problema. Pedimos que você relate quaisquer vulnerabilidades de forma responsável,
+para que possamos continuar construindo uma aplicação segura para toda a comunidade.
