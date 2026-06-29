@@ -1,0 +1,20 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Projetos/conect/flutter/windows/build/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/flutter/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/runner/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/desktop_drop/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/desktop_multi_window/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/file_selector_windows/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/flutter_custom_cursor/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/flutter_gpu_texture_renderer/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/screen_retriever/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/texture_rgba_renderer/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/uni_links_desktop/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/url_launcher_windows/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/window_manager/cmake_install.cmake",
+		"C:/Projetos/conect/flutter/windows/build/plugins/window_size/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

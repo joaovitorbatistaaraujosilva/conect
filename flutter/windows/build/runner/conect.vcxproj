@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F0A67CB6-7FA7-3EC0-8919-5DA71DF6C97A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.28000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>conect</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projetos\conect\flutter\windows\build\runner\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">conect.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">conect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Projetos\conect\flutter\windows\build\runner\Profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">conect.dir\Profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">conect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projetos\conect\flutter\windows\build\runner\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">conect.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">conect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;_DEBUG;FLUTTER_VERSION="1.4.8+66";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.4.8+66\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Debug\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Debug\desktop_drop_plugin.lib;..\plugins\desktop_multi_window\Debug\desktop_multi_window_plugin.lib;..\plugins\file_selector_windows\Debug\file_selector_windows_plugin.lib;..\plugins\flutter_custom_cursor\Debug\flutter_custom_cursor_plugin.lib;..\plugins\flutter_gpu_texture_renderer\Debug\flutter_gpu_texture_renderer_plugin.lib;..\plugins\screen_retriever\Debug\screen_retriever_plugin.lib;..\plugins\texture_rgba_renderer\Debug\texture_rgba_renderer_plugin.lib;..\plugins\uni_links_desktop\Debug\uni_links_desktop_plugin.lib;..\plugins\url_launcher_windows\Debug\url_launcher_windows_plugin.lib;..\plugins\window_manager\Debug\window_manager_plugin.lib;..\plugins\window_size\Debug\window_size_plugin.lib;C:\Projetos\conect\flutter\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Projetos/conect/flutter/windows/build/runner/Debug/conect.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Projetos/conect/flutter/windows/build/runner/Debug/conect.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Projetos\conect\flutter\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION="1.4.8+66";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Profile"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.4.8+66\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Profile\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Profile\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Profile\desktop_drop_plugin.lib;..\plugins\desktop_multi_window\Profile\desktop_multi_window_plugin.lib;..\plugins\file_selector_windows\Profile\file_selector_windows_plugin.lib;..\plugins\flutter_custom_cursor\Profile\flutter_custom_cursor_plugin.lib;..\plugins\flutter_gpu_texture_renderer\Profile\flutter_gpu_texture_renderer_plugin.lib;..\plugins\screen_retriever\Profile\screen_retriever_plugin.lib;..\plugins\texture_rgba_renderer\Profile\texture_rgba_renderer_plugin.lib;..\plugins\uni_links_desktop\Profile\uni_links_desktop_plugin.lib;..\plugins\url_launcher_windows\Profile\url_launcher_windows_plugin.lib;..\plugins\window_manager\Profile\window_manager_plugin.lib;..\plugins\window_size\Profile\window_size_plugin.lib;C:\Projetos\conect\flutter\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Projetos/conect/flutter/windows/build/runner/Profile/conect.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Projetos/conect/flutter/windows/build/runner/Profile/conect.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Projetos\conect\flutter\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>"4100"</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION="1.4.8+66";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;FLUTTER_VERSION=\"1.4.8+66\";FLUTTER_VERSION_MAJOR=1;FLUTTER_VERSION_MINOR=4;FLUTTER_VERSION_PATCH=8;FLUTTER_VERSION_BUILD=66;NOMINMAX;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Projetos\conect\flutter\windows;C:\Projetos\conect\flutter\windows\flutter\ephemeral;C:\Projetos\conect\flutter\windows\flutter\ephemeral\cpp_client_wrapper\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_drop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\desktop_multi_window\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\file_selector_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_custom_cursor\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\flutter_gpu_texture_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\screen_retriever\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\texture_rgba_renderer\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\uni_links_desktop\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\url_launcher_windows\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_manager\windows\include;C:\Projetos\conect\flutter\windows\flutter\ephemeral\.plugin_symlinks\window_size\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\flutter\Release\flutter_wrapper_app.lib;dwmapi.lib;..\plugins\desktop_drop\Release\desktop_drop_plugin.lib;..\plugins\desktop_multi_window\Release\desktop_multi_window_plugin.lib;..\plugins\file_selector_windows\Release\file_selector_windows_plugin.lib;..\plugins\flutter_custom_cursor\Release\flutter_custom_cursor_plugin.lib;..\plugins\flutter_gpu_texture_renderer\Release\flutter_gpu_texture_renderer_plugin.lib;..\plugins\screen_retriever\Release\screen_retriever_plugin.lib;..\plugins\texture_rgba_renderer\Release\texture_rgba_renderer_plugin.lib;..\plugins\uni_links_desktop\Release\uni_links_desktop_plugin.lib;..\plugins\url_launcher_windows\Release\url_launcher_windows_plugin.lib;..\plugins\window_manager\Release\window_manager_plugin.lib;..\plugins\window_size\Release\window_size_plugin.lib;C:\Projetos\conect\flutter\windows\flutter\ephemeral\flutter_windows.dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Projetos/conect/flutter/windows/build/runner/Release/conect.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Projetos/conect/flutter/windows/build/runner/Release/conect.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>C:\Projetos\conect\flutter\windows\runner\runner.exe.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Projetos\conect\flutter\windows\runner\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Projetos/conect/flutter/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\PROGRA~1\MICROS~2\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SC:/Projetos/conect/flutter/windows -BC:/Projetos/conect/flutter/windows/build --check-stamp-file C:/Projetos/conect/flutter/windows/build/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Projetos\conect\flutter\windows\build\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Projetos/conect/flutter/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
+C:\PROGRA~1\MICROS~2\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SC:/Projetos/conect/flutter/windows -BC:/Projetos/conect/flutter/windows/build --check-stamp-file C:/Projetos/conect/flutter/windows/build/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Projetos\conect\flutter\windows\build\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Projetos/conect/flutter/windows/runner/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\PROGRA~1\MICROS~2\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SC:/Projetos/conect/flutter/windows -BC:/Projetos/conect/flutter/windows/build --check-stamp-file C:/Projetos/conect/flutter/windows/build/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Projetos\conect\flutter\windows\build\runner\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Projetos\conect\flutter\windows\runner\flutter_window.cpp" />
+    <ClCompile Include="C:\Projetos\conect\flutter\windows\runner\main.cpp" />
+    <ClCompile Include="C:\Projetos\conect\flutter\windows\runner\utils.cpp" />
+    <ClCompile Include="C:\Projetos\conect\flutter\windows\runner\win32_window.cpp" />
+    <ClCompile Include="C:\Projetos\conect\flutter\windows\flutter\generated_plugin_registrant.cc" />
+    <ResourceCompile Include="C:\Projetos\conect\flutter\windows\runner\Runner.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\ZERO_CHECK.vcxproj">
+      <Project>{240D9BA0-AFCA-34C2-851B-C1B2F37B2C63}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\desktop_drop\desktop_drop_plugin.vcxproj">
+      <Project>{3AE7892E-04EA-3D6B-8A94-F30701433316}</Project>
+      <Name>desktop_drop_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\desktop_multi_window\desktop_multi_window_plugin.vcxproj">
+      <Project>{FC0FA34A-3F7E-3AC2-BFCE-658BE918649C}</Project>
+      <Name>desktop_multi_window_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\file_selector_windows\file_selector_windows_plugin.vcxproj">
+      <Project>{9672B05E-7F9E-3E83-B8A8-50BD1B0AAEBB}</Project>
+      <Name>file_selector_windows_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\flutter\flutter_assemble.vcxproj">
+      <Project>{4E038AB3-88D4-359C-B5A0-8DD98D064848}</Project>
+      <Name>flutter_assemble</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\flutter_custom_cursor\flutter_custom_cursor_plugin.vcxproj">
+      <Project>{41AB0C09-F650-3DD6-AFC1-C450712CA300}</Project>
+      <Name>flutter_custom_cursor_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\flutter_gpu_texture_renderer\flutter_gpu_texture_renderer_plugin.vcxproj">
+      <Project>{5339C597-5EE8-3CCD-8274-1CB097CFFC37}</Project>
+      <Name>flutter_gpu_texture_renderer_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\flutter\flutter_wrapper_app.vcxproj">
+      <Project>{F69EB5D1-6E26-3DEA-9FFD-E2851796DBD2}</Project>
+      <Name>flutter_wrapper_app</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\screen_retriever\screen_retriever_plugin.vcxproj">
+      <Project>{4C6B938D-D482-3146-99FD-B30B59678FCE}</Project>
+      <Name>screen_retriever_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\texture_rgba_renderer\texture_rgba_renderer_plugin.vcxproj">
+      <Project>{283A3290-7A36-3E51-A3CB-F4067A6DD81F}</Project>
+      <Name>texture_rgba_renderer_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\uni_links_desktop\uni_links_desktop_plugin.vcxproj">
+      <Project>{219A893A-7CB7-3F89-84CB-8D822F76B37A}</Project>
+      <Name>uni_links_desktop_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\url_launcher_windows\url_launcher_windows_plugin.vcxproj">
+      <Project>{D0EAA4FC-4260-3DB4-BFDE-D204E530F7A1}</Project>
+      <Name>url_launcher_windows_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\window_manager\window_manager_plugin.vcxproj">
+      <Project>{92C7B922-DB45-30D9-81DA-1AC63D2BAECE}</Project>
+      <Name>window_manager_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Projetos\conect\flutter\windows\build\plugins\window_size\window_size_plugin.vcxproj">
+      <Project>{8960D38D-5991-3787-8286-395AEC3DE9A4}</Project>
+      <Name>window_size_plugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
