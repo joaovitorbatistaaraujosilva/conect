@@ -141,24 +141,16 @@ Certifique-se de executar esses comandos a partir da raiz do repositório, do co
 
 ## Estrutura de Arquivos
 
-- **[libs/hbb_common](https://github.com/rustdesk/rustdesk/tree/master/libs/hbb_common)**: codec de vídeo, configuração, encapsulador (wrapper) tcp/udp, protobuf, funções de sistema de arquivos para transferência de arquivos e algumas outras funções utilitárias.
-- **[libs/scrap](https://github.com/rustdesk/rustdesk/tree/master/libs/scrap)**: captura de tela.
-- **[libs/enigo](https://github.com/rustdesk/rustdesk/tree/master/libs/enigo)**: controle de teclado/mouse específico de cada plataforma.
-- **[libs/clipboard](https://github.com/rustdesk/rustdesk/tree/master/libs/clipboard)**: implementação de copiar e colar arquivos para Windows, Linux e macOS.
-- **[src/ui](https://github.com/rustdesk/rustdesk/tree/master/src/ui)**: interface Sciter antiga (descontinuada).
-- **[src/server](https://github.com/rustdesk/rustdesk/tree/master/src/server)**: serviços de áudio/área de transferência/entrada/vídeo e conexões de rede.
-- **[src/client.rs](https://github.com/rustdesk/rustdesk/tree/master/src/client.rs)**: inicia uma conexão direta (peer connection).
-- **[src/rendezvous_mediator.rs](https://github.com/rustdesk/rustdesk/tree/master/src/rendezvous_mediator.rs)**: Comunica-se com o [rustdesk-server](https://github.com/rustdesk/rustdesk-server), aguarda por conexão remota direta (perfuração de túnel TCP / hole punching) ou retransmitida.
-- **[src/platform](https://github.com/rustdesk/rustdesk/tree/master/src/platform)**: código específico de cada plataforma.
-- **[flutter](https://github.com/rustdesk/rustdesk/tree/master/flutter)**: código Flutter para desktop e dispositivos móveis.
-- **[flutter/web/js](https://github.com/rustdesk/rustdesk/tree/master/flutter/web/v1/js)**: JavaScript para o cliente web do Flutter.
+- **[libs/hbb_common](https://github.com/joaovitorbatistaaraujosilva/conect/libs/hbb_common)**: codec de vídeo, configuração, encapsulador (wrapper) tcp/udp, protobuf, funções de sistema de arquivos para transferência de arquivos e algumas outras funções utilitárias.
+- **[libs/scrap](https://github.com/joaovitorbatistaaraujosilva/conect/libs/libs/scrap)**: captura de tela.
+- **[libs/enigo](https://github.com/joaovitorbatistaaraujosilva/conect/libs/libs/enigo)**: controle de teclado/mouse específico de cada plataforma.
+- **[libs/clipboard](https://github.com/joaovitorbatistaaraujosilva/conect/libs/libs/clipboard)**: implementação de copiar e colar arquivos para Windows, Linux e macOS.
+- **[src/ui](https://github.com/joaovitorbatistaaraujosilva/conect/libs/src/ui)**: interface Sciter antiga (descontinuada).
+- **[src/server](https://github.com/joaovitorbatistaaraujosilva/conect/libs/src/server)**: serviços de áudio/área de transferência/entrada/vídeo e conexões de rede.
+- **[src/client.rs](https://github.com/joaovitorbatistaaraujosilva/conect/libs/src/client.rs)**: inicia uma conexão direta (peer connection).
+- **[src/rendezvous_mediator.rs](https://github.com/joaovitorbatistaaraujosilva/conect/libs/src/rendezvous_mediator.rs)**: Comunica-se com o [rustdesk-server](https://github.com/rustdesk/rustdesk-server), aguarda por conexão remota direta (perfuração de túnel TCP / hole punching) ou retransmitida.
+- **[src/platform](https://github.com/joaovitorbatistaaraujosilva/conect/libs/src/platform)**: código específico de cada plataforma.
+- **[flutter](https://github.com/joaovitorbatistaaraujosilva/conect/libs/flutter)**: código Flutter para desktop e dispositivos móveis.
+- **[flutter/web/js](https://github.com/joaovitorbatistaaraujosilva/conect/libs/flutter/web/v1/js)**: JavaScript para o cliente web do Flutter.
 
-## Capturas de Tela
 
-![Gerenciador de Conexões](https://github.com/rustdesk/rustdesk/assets/28412477/db82d4e7-c4bc-4823-8e6f-6af7eadf7651)
-
-![Conectado a um PC Windows](https://github.com/rustdesk/rustdesk/assets/28412477/9baa91e9-3362-4d06-aa1a-7518edcbd7ea)
-
-![Transferência de Arquivos](https://github.com/rustdesk/rustdesk/assets/28412477/39511ad3-aa9a-4f8c-8947-1cce286a46ad)
-
-![Tunelamento TCP](https://github.com/rustdesk/rustdesk/assets/28412477/78e8708f-e87e-4570-8373-1360033ea6c5)
