@@ -1,40 +1,21 @@
-# Contributing
+Como contribuir
 
-welcomes contribution from everyone. Here are the guidelines if you are
-thinking of helping us:
+Aceitamos contribuições de todos. Aqui estão as diretrizes caso você queira nos ajudar:
+Contribuições
 
-## Contributions
+As contribuições para as dependências do projeto devem ser feitas na forma de *pull requests* no GitHub. Cada *pull request* será analisado por um colaborador principal (alguém com permissão para integrar alterações) e, então, será integrado à *branch* principal ou receberá *feedback* sobre as alterações necessárias. Todas as contribuições devem seguir este formato, inclusive as feitas por colaboradores principais.
 
-Contributions to  its dependencies should be made in the form of GitHub
-pull requests. Each pull request will be reviewed by a core contributor
-(someone with permission to land patches) and either landed in the main tree or
-given feedback for changes that would be required. All contributions should
-follow this format, even those from core contributors.
+Caso queira trabalhar em uma *issue* (tarefa/problema), por favor, manifeste seu interesse primeiro comentando na *issue* do GitHub em questão. Isso evita a duplicação de esforços por parte de diferentes colaboradores na mesma tarefa.
+Lista de verificação para *Pull Requests*
 
-Should you wish to work on an issue, please claim it first by commenting on
-the GitHub issue that you want to work on it. This is to prevent duplicated
-efforts from contributors on the same issue.
+    Crie uma *branch* a partir da *branch* `master` e, se necessário, faça um *rebase* para a versão atual da *branch* `master` antes de enviar seu *pull request*. Se a integração com a `master` não ocorrer sem conflitos, pode ser solicitado que você faça um *rebase* das suas alterações.
 
-## Pull Request Checklist
+    Os *commits* devem ser o menor possível, garantindo que cada um deles esteja correto de forma independente (ou seja, cada *commit* deve compilar e passar nos testes).
 
-- Branch from the master branch and, if needed, rebase to the current master
-  branch before submitting your pull request. If it doesn't merge cleanly with
-  master you may be asked to rebase your changes.
+    Os *commits* devem incluir uma assinatura do *Developer Certificate of Origin* (http://developercertificate.org), indicando que você (e seu empregador, se aplicável) concorda em se sujeitar aos termos da licença do projeto. No Git, isso é feito utilizando a opção `-s` no comando `git commit`.
 
-- Commits should be as small as possible, while ensuring that each commit is
-  correct independently (i.e., each commit should compile and pass tests).
+    Se o seu *patch* não estiver sendo analisado ou se você precisar que uma pessoa específica o analise, você pode mencionar um revisor (usando `@`) no *pull request* ou em um comentário para solicitar a revisão.
 
-- Commits should be accompanied by a Developer Certificate of Origin
-  (http://developercertificate.org) sign-off, which indicates that you (and
-  your employer if applicable) agree to be bound by the terms of the
-  [project license](../LICENCE). In git, this is the `-s` option to `git commit`
+    Adicione testes relevantes para o *bug* corrigido ou para a nova funcionalidade.
 
-- If your patch is not getting reviewed or you need a specific person to review
-  it, you can @-reply a reviewer asking for a review in the pull request or a
-  comment, or you can ask for a review .
-
-- Add tests relevant to the fixed bug or new feature.
-
-For specific git instructions, see [GitHub workflow 101](https://github.com/servo/servo/wiki/GitHub-workflow).
-
-
+Para instruções específicas sobre o Git, consulte o guia básico de fluxo de trabalho do GitHub (*GitHub workflow 101*).
