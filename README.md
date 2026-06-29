@@ -8,7 +8,7 @@
 
 > [!Caution]
 > **Aviso de Isenção de Responsabilidade por Uso Indevido:** <br>
-> Os desenvolvedores do RustDesk não toleram ou apoiam qualquer uso antiético ou ilegal deste software. O uso indevido, como acesso não autorizado, controle ou invasão de privacidade, viola estritamente nossas diretrizes. Os autores não são responsáveis por qualquer uso indevido do aplicativo.
+> Os desenvolvedores não toleram ou apoiam qualquer uso antiético ou ilegal deste software. O uso indevido, como acesso não autorizado, controle ou invasão de privacidade, viola estritamente nossas diretrizes. Os autores não são responsáveis por qualquer uso indevido do aplicativo.
 
 
 
